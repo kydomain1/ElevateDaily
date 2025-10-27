@@ -1,0 +1,27 @@
+{
+  "name": "elevatedaily",
+  "version": "1.0.0",
+  "description": "ElevateDaily - A minimalist lifestyle blog featuring curated content across six lifestyle categories",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=index.html"
+  },
+  "keywords": [
+    "blog",
+    "minimalist",
+    "lifestyle",
+    "fashion",
+    "health",
+    "beauty",
+    "home",
+    "travel",
+    "finance"
+  ],
+  "author": "ElevateDaily",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
+
+
