@@ -522,6 +522,24 @@ a:hover {
     line-height: 1.7;
 }
 
+.article-content a {
+    color: #0066cc;
+    text-decoration: underline;
+    text-decoration-color: #0066cc;
+    text-underline-offset: 3px;
+    font-weight: var(--font-weight-medium);
+    background-color: rgba(0, 102, 204, 0.08);
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: all var(--transition-speed) var(--transition-timing);
+}
+
+.article-content a:hover {
+    color: #0052a3;
+    background-color: rgba(0, 102, 204, 0.15);
+    text-decoration-color: #0052a3;
+}
+
 /* Product Cards */
 .product-section {
     background-color: var(--color-hover);
